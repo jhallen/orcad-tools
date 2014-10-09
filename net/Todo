@@ -1,0 +1,16 @@
+- Add mark to indicate sheet is modeled by something else so that it will
+  not be generated- something like '|modeled'
+
+- Support multi-page schematics:
+    Wires get a page number post-fix.
+    Inter-sheet connections are by port.
+
+- Primitive resistor port name starts with a number which is an invalid
+  verilog name.
+
+- Optional: add flattener
+
+- Optional: add verilog net reader
+
+- Optional: .INF builder from ASCII schematics (so that no OrCAD tools are
+  used).
