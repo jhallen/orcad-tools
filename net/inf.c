@@ -8,6 +8,7 @@
 #include <fstream>
 #include <string>
 #include <ctype.h>
+#include <stdlib.h>
 #include "string.h"
 
 using namespace std;
@@ -44,7 +45,7 @@ enum {
 	TOK_PIPE
 };
 
-char *tok_names[] = 
+const char *tok_names[] = 
 {
 	"EOF",
 	"LPAREN",
